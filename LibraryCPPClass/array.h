@@ -19,6 +19,8 @@ public:
 private:
     Data* data_;
     size_t size_;
+
+    static Data* copy_data(const Array& a);
 };
 
 #endif
